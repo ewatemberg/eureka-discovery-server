@@ -1,2 +1,2 @@
-# eureka-discovery-server
-Eureka Discovery Server
+# Eureka Discovery Server
+Example Eureka Discovery Server
