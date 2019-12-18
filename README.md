@@ -13,4 +13,4 @@ Cuando un microservicio registrado en Eureka arranca, envía un mensaje a Eureka
 * [Microservicio Echo](https://github.com/ewatemberg/eureka-client-microservice)
 
 ###### Fuente:
-[Miguel Doctor Yuste](https://medium.com/@migueldoctor/spring-cloud-series-spring-cloud-config-server-con-github-paso-a-paso-135d2b4aaf4c)
+[Miguel Doctor Yuste](https://medium.com/@migueldoctor/spring-cloud-series-crea-un-servicio-de-registro-y-descubrimiento-con-spring-cloud-netflix-eureka-4758615ad4cb)
