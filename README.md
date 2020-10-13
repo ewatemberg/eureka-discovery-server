@@ -7,10 +7,16 @@ Cómo funciona Spring Cloud Netflix Eureka?
 Eureka es un servicio rest que permite al resto de microservicios registrarse en su directorio. Esto es muy importante, puesto que no es Eureka quien registra los microservicios, sino los microservicios los que solicitan registrarse en el Eureka.
 Cuando un microservicio registrado en Eureka arranca, envía un mensaje a Eureka indicándole que está disponible. El servidor Eureka almacenará la información de todos los microservicios registrados así como su estado. La comunicación entre cada microservicio y el servidor Eureka se realiza mediante heartbeats cada X segundos. Si Eureka no recibe un heartbeat de un determinado pasados 3 intervalos, el microservicio será eliminado del registro. Además de llevar el registro de los microservicios activos, Eureka también ofrece al resto de microservicios la posibilidad de "descubrir" y acceder al resto de microservicios registrados. Por ello Eureka es considerado un servicio de registro y descubrimiento de miscroservicios
 
+![alt text]()
+
+
+![alt text](https://raw.githubusercontent.com/ewatemberg/spring-cloud-configuration-server-example/master/doc/img/java-microservices-with-netflix-oss-spring.jpg)
+
 ### Related
 * [Spring Cloud Config](https://github.com/ewatemberg/spring-cloud-configuration-server-example)
-* [Servicio Gateway Zuul](https://github.com/ewatemberg/zuul-gateway-server)
+* [Repositorio Configuración Centralizada](https://github.com/ewatemberg/spring-cloud-configuration-repository)
+* [Servicio Gateway mediante Zuul](https://github.com/ewatemberg/zuul-gateway-server)
 * [Microservicio Echo](https://github.com/ewatemberg/eureka-client-microservice)
 
-###### Fuente:
+#### Fuente:
 [Miguel Doctor Yuste](https://medium.com/@migueldoctor/spring-cloud-series-crea-un-servicio-de-registro-y-descubrimiento-con-spring-cloud-netflix-eureka-4758615ad4cb)
